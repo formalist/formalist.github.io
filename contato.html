@@ -1,0 +1,839 @@
+
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pt-br"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie7" lang="pt-br"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="pt-br"><![endif]-->
+<!--[if gt IE 8]> <html class="no-js ie9" lang="pt-br"><![endif]-->
+
+<html lang="pt-br" class="default">
+
+<head>
+    <title>Transformar Consultoria</title>
+
+    <!-- <meta charset="utf-8" />-->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon182b.ico?1458738377" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon182b.ico?1458738377" />
+
+    <link rel="stylesheet" href="themes/leo_happycook/css/global.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/autoload/uniform.default.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="js/jquery/plugins/fancybox/jquery.fancybox.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/leoblog/assets/leoblog.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/product_list.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/blockcart/blockcart.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="js/jquery/plugins/bxslider/jquery.bxslider.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/blockcategories/blockcategories.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/blockcurrencies/blockcurrencies.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/blocklanguages/blocklanguages.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/blockcontact/blockcontact.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/blocknewsletter/blocknewsletter.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/blocksearch/blocksearch.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="js/jquery/plugins/autocomplete/jquery.autocomplete.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/blockuserinfo/blockuserinfo.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/homeslider/homeslider.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="modules/themeconfigurator/css/hooks.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/blockwishlist/blockwishlist.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/productcomments/productcomments.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/leosliderlayer/css/typo.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="modules/leomanagewidgets/assets/owl-carousel/owl.carousel.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="modules/leomanagewidgets/assets/owl-carousel/owl.theme.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/leomanagewidgets/assets/styles.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/blockleoblogs/blockleoblogs.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="modules/fkcorreiosg2/css/fkcorreiosg2_front.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/leobootstrapmenu/megamenu.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/blockleoblogs/blogcarousel.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="themes/leo_happycook/css/modules/leocustomajax/leocustomajax.css" type="text/css" media="all" />
+
+    <script type="text/javascript">
+        var CUSTOMIZE_TEXTFIELD = 1;
+        var FancyboxI18nClose = 'Próximo';
+        var FancyboxI18nNext = 'Próximo';
+        var FancyboxI18nPrev = 'Anterior';
+        var added_to_wishlist = 'Adicionado à sua Lista de presentes.';
+        var ajax_allowed = true;
+        var ajaxsearch = true;
+        var baseDir = 'index.html';
+        var baseUri = 'index.html';
+        var blocksearch_type = 'top';
+        var comparator_max_item = 3;
+        var comparedProductsIds = [];
+        var contentOnly = false;
+        var customizationIdMessage = 'Personalização Nº';
+        var delete_txt = 'Apagar';
+        var displayList = false;
+        var freeProductTranslation = 'Grátis!';
+        var freeShippingTranslation = 'Frete grátis!';
+        var generated_date = 1555456073;
+        var hasDeliveryAddress = false;
+        var homeslider_loop = 1;
+        var homeslider_pause = 3000;
+        var homeslider_speed = 500;
+        var homeslider_width = 779;
+        var id_lang = 2;
+        var img_dir = 'themes/leo_happycook/img/index.html';
+        var instantsearch = false;
+        var isGuest = 0;
+        var isLogged = 0;
+        var isMobile = false;
+        var loggin_required = 'Você precisa estar logado para gerenciar sua lista de desejos.';
+        var max_item = 'You cannot add more than 3 product(s) to the product comparison';
+        var min_item = 'Please select at least one product';
+        var mywishlist_url = 'loginbf57.html';
+        var page_name = 'pdfinvoice';
+        var placeholder_blocknewsletter = 'Digite seu e-mail';
+        var priceDisplayMethod = 0;
+        var priceDisplayPrecision = 2;
+        var quickView = true;
+        var removingLinkText = 'Retirar este produto do meu carrinho';
+        var roundMode = 2;
+        var search_url = 'procurar.html';
+        var static_token = 'd15bbdcf7f5661a2e6a3097cb168a330';
+        var toBeDetermined = 'A ser determinado';
+        var token = '5e0978747bf822b682b684ead5eb606d';
+        var usingSecureMode = true;
+        var wishlistProductsIds = false;
+    </script>
+
+    <script type="text/javascript" src="js/jquery/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery/plugins/jquery.easing.js"></script>
+    <script type="text/javascript" src="js/tools.js"></script>
+    <script type="text/javascript" src="themes/leo_happycook/js/global.js"></script>
+    <script type="text/javascript" src="themes/leo_happycook/js/autoload/10-bootstrap.min.js"></script>
+    <script type="text/javascript" src="themes/leo_happycook/js/autoload/15-jquery.total-storage.min.js"></script>
+    <script type="text/javascript" src="themes/leo_happycook/js/autoload/15-jquery.uniform-modified.js"></script>
+    <script type="text/javascript" src="js/jquery/plugins/fancybox/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="themes/leo_happycook/js/products-comparison.js"></script>
+    <script type="text/javascript" src="modules/leoblog/assets/leoblog.js"></script>
+    <script type="text/javascript" src="themes/leo_happycook/js/modules/blockcart/ajax-cart.js"></script>
+    <script type="text/javascript" src="js/jquery/plugins/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="js/jquery/plugins/jquery.serialScroll.js"></script>
+    <script type="text/javascript" src="js/jquery/plugins/bxslider/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="themes/leo_happycook/js/tools/treeManagement.js"></script>
+    <script type="text/javascript" src="themes/leo_happycook/js/modules/blocknewsletter/blocknewsletter.js"></script>
+    <script type="text/javascript" src="js/jquery/plugins/autocomplete/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="themes/leo_happycook/js/modules/blocksearch/blocksearch.js"></script>
+    <script type="text/javascript" src="themes/leo_happycook/js/modules/homeslider/js/homeslider.js"></script>
+    <script type="text/javascript" src="themes/leo_happycook/js/modules/blockwishlist/js/ajax-wishlist.js"></script>
+    <script type="text/javascript" src="modules/leosliderlayer/js/jquery.themepunch.enablelog.js"></script>
+    <script type="text/javascript" src="modules/leosliderlayer/js/jquery.themepunch.revolution.js"></script>
+    <script type="text/javascript" src="modules/leosliderlayer/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="modules/leomanagewidgets/assets/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="modules/leomanagewidgets/assets/script.js"></script>
+    <script type="text/javascript" src="modules/fkcorreiosg2/js/fkcorreiosg2_fancybox.js"></script>
+    <script type="text/javascript" src="modules/fkcorreiosg2/js/fkcorreiosg2_front.js"></script>
+    <script type="text/javascript" src="modules/fkcorreiosg2/js/jquery.maskedinput.js"></script>
+    <script type="text/javascript" src="modules/ganalytics/views/js/GoogleAnalyticActionLib.js"></script>
+    <script type="text/javascript" src="themes/leo_happycook/js/index.js"></script>
+    <script type="text/javascript" src="modules/leocustomajax/leocustomajax.js"></script>
+    <link rel="stylesheet" type="text/css" href="themes/leo_happycook/css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="themes/leo_happycook/css/font-awesome.min.css" />
+
+    <script type="text/javascript">
+        (window.gaDevIds = window.gaDevIds || []).push('d6YPbH');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-34508604-31', 'auto');
+        ga('require', 'ec');
+
+    </script>
+    <link rel="stylesheet" href="themes/leo_happycook/css/customize/test33.css" type="text/css" media="all" />
+
+
+    <!-- <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'> -->
+    <!--[if IE 8]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="contact" class="contact hide-left-column hide-right-column lang_br fullwidth header-default double-menu">
+    <h1 class="hidden">Transformar Consultoria</h1>
+    <section id="page" data-column="col-xs-12 col-sm-6 col-md-3" data-type="grid">
+        <!-- Header -->
+        <header id="header">
+            <section class="header-container">
+                <div id="topbar">
+                    <div class="container">
+                        <div class="inner">
+                            <nav>
+                                <script type="text/javascript">
+                                    /* Blockusreinfo */
+
+                                    $(document).ready(function () {
+                                        if ($(window).width() < 1025) {
+                                            $(".header_user_info").addClass('popup-over');
+                                            $(".header_user_info .links").addClass('popup-content');
+                                        }
+                                        else {
+                                            $(".header_user_info").removeClass('popup-over');
+                                            $(".header_user_info .links").removeClass('popup-content');
+                                        }
+                                        $(window).resize(function () {
+                                            if ($(window).width() < 1025) {
+                                                $(".header_user_info").addClass('popup-over');
+                                                $(".header_user_info .links").addClass('popup-content');
+                                            }
+                                            else {
+                                                $(".header_user_info").removeClass('popup-over');
+                                                $(".header_user_info .links").removeClass('popup-content');
+                                            }
+                                        });
+                                    });
+                                </script>
+                                <div id="coisinha_do_topo" class="pull-left">
+                                    <span style="color:#FFF;">Central de Atendimento:</span> (85) 3093-6279 | 98109-1677
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="header-main">
+                    <div class="container">
+                        <div class="inner">
+                            <!-- LOGO -->
+                            <div id="header_logo">
+                                <a href="index.html" title="Transformar Consultoria">
+                                    <img class="logo img-responsive" src="img/transformar-logo-1438610887.png" alt="Transformar Consultoria" width="379" height="110" />
+                                </a>
+                            </div>
+                            <!-- END LOGO -->
+
+                            <!-- MENU -->
+                            <div id="leo-megamenu" class="clearfix">
+                                <nav id="cavas_menu" class="sf-contener leo-megamenu">
+                                    <div class="" role="navigation">
+                                        <!-- Brand and toggle get grouped for better mobile display -->
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle btn-outline-inverse" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                                <span class="sr-only">Alternar de navegação</span>
+                                                <span class="fa fa-bars"></span>
+                                            </button>
+                                        </div>
+                                        <!-- Collect the nav links, forms, and other content for toggling -->
+                                        <div id="leo-top-menu" class="collapse navbar-collapse navbar-ex1-collapse">
+                                            <ul class="nav navbar-nav megamenu">
+                                                <li class="">
+                                                    <a href="index.html" target="_self" class="has-category"><span class="menu-title">Início</span></a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="por-que-a-transformar.html" target="_self" class="has-category"><span class="menu-title">Por que a Transformar</span></a>
+                                                </li>
+                                                <li class="parent dropdown  ">
+                                                    <a class="dropdown-toggle has-category" data-toggle="dropdown" href="#link" target="_self">
+                                                        <span class="menu-title">Serviços</span>
+                                                        <b class="caret"></b>
+                                                    </a>
+                                                    <div class="dropdown-menu level1">
+                                                        <div class="dropdown-menu-inner">
+                                                            <div class="row">
+                                                                <div class="col-sm-12 mega-col" data-colwidth="12" data-type="menu">
+                                                                    <div class="inner">
+                                                                        <ul>
+                                                                            <li class="  "><a href="coaching.html"><span class="menu-title">Coaching</span></a></li>
+                                                                            <li class="  "><a href="consultoria.html"><span class="menu-title">Consultoria</span></a></li>
+                                                                            <li class="  "><a href="auditoria.html"><span class="menu-title">Auditoria</span></a></li>
+                                                                            <li class="  "><a href="tercerizacao-de-rh.html"><span class="menu-title">Terceirização de RH</span></a></li>
+                                                                            <li class="  "><a href="executive-search.html"><span class="menu-title">Executive Search, Outplacement e Recolocação Profissional</span></a></li>
+                                                                            <li class="  "><a href="relatorio-de-gestao.html"><span class="menu-title">Relatórios de Gestão</span></a></li>
+                                                                            <li class="  "><a href="analise-de-perfil.html"><span class="menu-title">Análise de Perfil</span></a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="">
+                                                    <a href="clientes.html" target="_self" class="has-category"><span class="menu-title">Clientes</span></a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="contato.html" target="_self" class="has-category"><span class="menu-title">Contato</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                            <!-- END MENU -->
+
+                            <script type="text/javascript">
+                                jQuery(window).scroll(function () {
+                                    var x = jQuery(this).scrollTop();
+                                    var h = jQuery('#header-main').height();
+                                    if (x >= 40) {
+                                        jQuery('#header-main').addClass('scroll_menu');
+                                        jQuery('#topbar').css('margin-bottom', h);
+                                    } else {
+                                        jQuery('#header-main').removeClass('scroll_menu');
+                                        jQuery('#topbar').css('margin-bottom', 0);
+                                    }
+                                });
+                            </script>
+                            <script type="text/javascript">
+                                // <![CDATA[
+                                var current_link = "index.html";
+                                //alert(request);
+                                var currentURL = window.location;
+                                currentURL = String(currentURL);
+                                currentURL = currentURL.replace("https:///", "").replace("http://", "").replace("www.", "").replace(/#\w*/, "");
+                                current_link = current_link.replace("https:///", "").replace("http://", "").replace("www.", "");
+                                isHomeMenu = 0;
+                                if ($("body").attr("id") == "index") isHomeMenu = 1;
+                                $(".megamenu > li > a").each(function () {
+                                    menuURL = $(this).attr("href").replace("https:///", "").replace("http://", "").replace("www.", "").replace(/#\w*/, "");
+                                    if ((currentURL == menuURL) || (currentURL.replace(current_link, "") == menuURL) || isHomeMenu) {
+                                        $(this).parent().addClass("active");
+                                        return false;
+                                    }
+                                });
+                                // ]]>
+                            </script>
+                            <script type="text/javascript">
+                                (function ($) {
+                                    $.fn.OffCavasmenu = function (opts) {
+                                        // default configuration
+                                        var config = $.extend({}, {
+                                            opt1: null,
+                                            text_warning_select: "Por favor, selecione um para remover?",
+                                            text_confirm_remove: "Tem certeza que deseja remover linha de rodapé?",
+                                            JSON: null
+                                        }, opts);
+                                        // main function
+                                        // initialize every element
+                                        this.each(function () {
+                                            var $btn = $('#cavas_menu .navbar-toggle');
+                                            var $nav = null;
+                                            if (!$btn.length)
+                                                return;
+                                            var $nav = $('<section id="off-canvas-nav" class="leo-megamenu"><nav class="offcanvas-mainnav" ><div id="off-canvas-button"><span class="off-canvas-nav"></span>Próximo</div></nav></sections>');
+                                            var $menucontent = $($btn.data('target')).find('.megamenu').clone();
+                                            $("body").append($nav);
+                                            $("#off-canvas-nav .offcanvas-mainnav").append($menucontent);
+                                            $("#off-canvas-nav .offcanvas-mainnav").css('min-height', $(window).height() + 30 + "px");
+                                            $("html").addClass("off-canvas");
+                                            $("#off-canvas-button").click(function () {
+                                                $btn.click();
+                                            });
+                                            $btn.toggle(function () {
+                                                $("body").removeClass("off-canvas-inactive").addClass("off-canvas-active");
+                                            }, function () {
+                                                $("body").removeClass("off-canvas-active").addClass("off-canvas-inactive");
+                                            });
+                                        });
+                                        return this;
+                                    }
+                                })(jQuery);
+                                $(document).ready(function () {
+                                    jQuery("#cavas_menu").OffCavasmenu();
+                                    $('#cavas_menu .navbar-toggle').click(function () {
+                                        $('body,html').animate({
+                                            scrollTop: 0
+                                        }, 0);
+                                        return false;
+                                    });
+                                });
+                                $(document.body).on('click', '[data-toggle="dropdown"]', function () {
+                                    if (!$(this).parent().hasClass('open') && this.href && this.href != '#') {
+                                        window.location.href = this.href;
+                                    }
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        
+
+
+
+<div id="breadcrumb" class="clearfix">
+    <div class="container">
+
+    </div>
+</div>
+
+<!-- Content -->
+<section id="columns" class="columns-container">
+    <div class="container">
+        <div class="inner">
+
+
+            <!-- Center -->
+            <section id="center_column">
+                <div class="banne-pers-op">
+                    <div class="bloco">
+                        <img alt="" src="img/contato.jpg">
+                    </div>
+                </div>
+
+                <h3 style="margin-top:0;">Contatos:</h3>
+				
+				
+				<ul class="info-list">
+					<li><span class="fa fa-phone">&nbsp;</span>(85) 3093-6279&nbsp;| 98109-1677</li>
+					<li><span class="fa fa-envelope">&nbsp;</span>transformar@transformarconsultoria.com</li>
+					<li><span class="fa fa-map-marker">&nbsp;</span>R. Dr. Gilberto Studart, 55 - Sala 1513 - Cocó - FORTALEZA/CE</li>
+					<li></li>
+				</ul>
+            </section>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+        <!-- Footer -->
+        <footer id="footer" class="footer-container">
+            <div class="container">
+                <div class="inner">
+
+                    <script type="text/javascript">
+                        var leoOption = {
+                            productNumber: 1,
+                            productInfo: 0,
+                            productTran: 0,
+                            productCdown: 0,
+                            productColor: 0,
+                        }
+                        $(document).ready(function () {
+                            var leoCustomAjax = new $.LeoCustomAjax();
+                            leoCustomAjax.processAjax();
+                        });
+                    </script>
+
+                    <!-- NOSSOS CLIENTES - START -->
+                    <div class="row footer-center fs-style fs-style4">
+                        <div class="widget col-lg-12 col-md-12 col-sm-12 col-xs-12 col-sp-12">
+                            <div class="widget-manufacture block">
+                                <h4 class="page-subheading">
+                                    <span>nossos</span> clientes
+                                </h4>
+                                <div class="block_content">
+                                    <div class="carousel slide" id="manucarousel">
+
+                                        <a class="carousel-control left" href="#manucarousel" data-slide="prev"></a>
+                                        <a class="carousel-control right" href="#manucarousel" data-slide="next"></a>
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <div class="row">
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/15_alianca" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/15-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/17_alianca" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/17-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/16_belem" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/16-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/18_bonor" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/18-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/20_br-bandeiras" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/20-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item ">
+                                                <div class="row">
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/19_brasilata" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/19-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/1_canxaga" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/1-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/3_clecio-gomes" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/3-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/21_conorte" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/21-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/22_conpasul" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/22-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item ">
+                                                <div class="row">
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/23_crea-rs" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/23-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/24_cruzeiro" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/24-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/27_dinacon" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/27-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/4_empresa-metropolitana" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/4-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/28_florestal" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/28-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item ">
+                                                <div class="row">
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/5_fretar" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/5-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/30_guanabara" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/30-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/29_guarauto" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/29-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/31_legal-d" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/31-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/34_lt" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/34-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item ">
+                                                <div class="row">
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/6_marcopecas" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/6-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/11_marcopolo" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/11-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/33_ms-express" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/33-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/32_nortran" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/32-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/35_oceano" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/35-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item ">
+                                                <div class="row">
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/36_planalto" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/36-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/8_princesa-do-iihamus" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/8-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/37_progresso" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/37-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/38_qualidade-rs" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/38-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/9_renner" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/9-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item ">
+                                                <div class="row">
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/39_rhodos" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/39-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/40_roizi" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/40-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/10_sao-jose" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/10-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/41_setcerg" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/41-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/14_sindonibus" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/14-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item ">
+                                                <div class="row">
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/42_sopal" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/42-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/44_sulvan" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/44-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/43_termolar" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/43-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/45_transmiro" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/45-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/46_transpessoa" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/46-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item ">
+                                                <div class="row">
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/47_trevisa" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/47-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/48_turisilva" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/48-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/49_tw-transporte" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/49-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/12_unimed" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/12-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/50_unimed" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/50-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item ">
+                                                <div class="row">
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/13_vale-do-rio-doce" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/13-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/51_veppo" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/51-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/52_veracruz" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/52-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/7_via-urbano" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/7-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="logo-manu col-md-2-4 col-lg-2-4 col-xs-4 col-sp-12">
+                                                        <!--<a href="https://www.transformarconsultoria.com/53_viamao" title="veja os produtos">-->
+                                                        <a href="#link" title="veja os produtos">
+                                                            <img class="img-responsive" src="img/m/53-brands.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script type="text/javascript">
+                                $(document).ready(function () {
+                                    setTimeout(function () {
+                                        jQuery('.carousel-control.right').trigger('click');
+                                        console.log('teste');
+                                    }, 3000);
+                                });
+                            </script>
+                        </div>
+                    </div>
+                    <!-- NOSSOS CLIENTES - END -->
+
+                    <div class="row footer-bottom">
+
+                        <div class="widget col-lg-4 col-md-6 col-sm-12 col-xs-12 col-sp-12">
+                            <div class="widget-html block">
+                                <h4 class="title_block">
+                                    Informações da empresa
+                                </h4>
+                                <div class="custom_content">
+                                    <div class="box">
+                                        <div class="box-content">
+                                            <ul class="info-list">
+                                                <li><span class="fa fa-phone"> </span>(85) 3093-6279 | 98109-1677</li>
+                                                <li><span class="fa fa-envelope"> </span>transformar@transformarconsultoria.com</li>
+                                                <li><span class="fa fa-clock-o"> </span>Segunda à Sexta de 08:00h às 18:00h.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="widget col-lg-6 col-md-8 col-sm-12 col-xs-12 col-sp-12 col-md-8 hidden-sp hidden-xs hidden-sm hidden-md">
+                            <!-- ex: fb, ig, tw -->
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h4 class="title_block">&nbsp;</h4>
+                                    <ul class="info-list">
+                                        <li>Transformar Sistemas de Informação LTDA</li>
+                                        <li>CNPJ: 13.649.668/0001-06</li>
+                                        <li>R. Dr. Gilberto Studart, 55 - Sala 1513</li>
+                                        <li>Cocó, Fortaleza/CE</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <script type="text/javascript">
+                        jQuery(document).ready(function () {
+                            var MBG = GoogleAnalyticEnhancedECommerce;
+                            MBG.setCurrency('BRL');
+                            ga('send', 'pageview');
+                        });
+                    </script>
+                </div>
+            </div>
+        </footer>
+    </section><!-- #page -->
+    <p id="back-top">
+        <a href="#top" title="Voltar ao Topo">Voltar ao Topo</a>
+    </p>
+</body>
+</html>
